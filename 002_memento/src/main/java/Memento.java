@@ -1,12 +1,12 @@
 
 public class Memento {
-    private Person person;
+    private Person state;
 
-    public Memento(Person person) {
-        this.person = person;
+    public Memento(Person state) {
+        this.state = state;
     }
 
-    public Person getPerson() {
-        return person;
+    public Person getState() {
+        return state;
     }
 }
