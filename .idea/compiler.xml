@@ -7,10 +7,13 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" />
         </processorPath>
-        <module name="002_memento.test" />
-        <module name="002_memento.main" />
+        <module name="Momento.test" />
+        <module name="Momento.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="15" />
+    <bytecodeTargetLevel target="14">
+      <module name="org.example.002_memento.main" target="14" />
+      <module name="org.example.002_memento.test" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>
